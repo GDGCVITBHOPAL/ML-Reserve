@@ -23,3 +23,6 @@ We decided to come up with a point system for all of our repositories under GDSC
 | Level 4       | Deploying models                                   | 20                |
 
 This how the points will be awarded for your respective contributions. This will help us reward our contributors at the end of the year.
+
+## Projects Showcase📕
+To be added
