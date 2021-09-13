@@ -1,8 +1,11 @@
-# ML-Reserve
-Have some really cool Machine Learning and Deep Learning projects that you wish to showcase? Feel free to contribute to ML Reserve
+<p align="center">
+<img src="Repository Assets/ML Reserve Folder Structure (2).png" alt="drawing" width="800"/>
+</p>
+
+Have some really cool Machine Learning and Deep Learning projects that you wish to showcase? Feel free to contribute to ML Reserve!
 
 ## Our Aim🚀
-To build a repository with really diverse projects and create a 'Project Reserve' that people from all across the globe can access and learn from.
+To build a repository with really diverse projects and create a 'Project Reserve' that people from all across the globe can access and learn from. A repository of End to End Machine Learning and Deep Learning Projects where anyone can come and make their contribution!
 
 ## Contributing Guidelines📕
 1. Fork the Project
@@ -14,9 +17,9 @@ To build a repository with really diverse projects and create a 'Project Reserve
 
 ## Folder Structure
 The below given folder structure should be followed while contributing to the project.</br>
-
-
-
+<p align="left">
+<img src="Repository Assets/ML Reserve Folder Structure.png" alt="drawing" width="500"/>
+</p>
 
 ## Points System💻
 We decided to come up with a point system for all of our repositories under GDSC, VIT Bhopal and here's how it looks.
