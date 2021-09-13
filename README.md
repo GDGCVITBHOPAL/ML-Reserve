@@ -35,3 +35,7 @@ This how the points will be awarded for your respective contributions. This will
 
 ## Projects Showcase📕
 To be added
+
+## Project Maintainers
+| [<img alt="amansharma2910" src="https://avatars.githubusercontent.com/u/53087550?v=4" width="115"><br><sub>Aman Sharma</sub><br>](https://github.com/amansharma2910)  <sub>**TECHNICAL LEAD**</sub> | [<img alt="" src="https://avatars.githubusercontent.com/u/52394145?v=4" width="115"><br><sub>Aayush Mishra</sub>](https://github.com/AM1CODES)<br>     <sub>**ML LEAD**</sub> | [<img alt="jackson" src="https://avatars.githubusercontent.com/u/55303125?v=4" width="115"><br><sub>Jackson Jacob</sub>](https://github.com/JackJJCodes)<br> <sub>**ML CO-LEAD**</sub>
+| :---: |:---: |:---: 
