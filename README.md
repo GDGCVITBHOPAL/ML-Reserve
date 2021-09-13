@@ -12,6 +12,12 @@ To build a repository with really diverse projects and create a 'Project Reserve
 5. Open a Pull Request
 6. Star the Repo(Really helps with discoverability)
 
+## Folder Structure
+The below given folder structure should be followed while contributing to the project.</br>
+
+
+
+
 ## Points System💻
 We decided to come up with a point system for all of our repositories under GDSC, VIT Bhopal and here's how it looks.
 | Levels        | Task                                               | Points            |
