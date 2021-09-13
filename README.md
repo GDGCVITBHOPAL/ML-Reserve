@@ -15,7 +15,7 @@ To build a repository with really diverse projects and create a 'Project Reserve
 5. Open a Pull Request
 6. Star the Repo(Really helps with discoverability)
 
-## Folder Structure
+## Folder Structure📁
 The below given folder structure should be followed while contributing to the project.</br>
 <p align="left">
 <img src="Repository Assets/ML Reserve Folder Structure.png" alt="drawing" width="500"/>
