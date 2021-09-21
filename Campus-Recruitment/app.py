@@ -34,7 +34,7 @@ def predict():
         
         # Work experience of the student:
         workExperience = request.form['work-ex']
-        if (workExperience == '1'):
+        if (workExperience == 'yes'):
             workExperience = 1
         else:
             workExperience = 0
@@ -47,20 +47,20 @@ def predict():
         
         # Gender of the student:
         gender = request.form['gender']
-        if (gender == '1'):
+        if (gender == 'male'):
             gender = 1
         else:
             gender = 0
             
         # Degree type of the student:
         degree_type = request.form['degree_type']
-        if degree_type == '1':
+        if degree_type == 'cmm&mgmt':
             degree_type = 1
         else:
             degree_type = 0
             
         specialization = request.form['specialization']
-        if specialization == '1':
+        if specialization == 'mkt&finc':
             specialization = 1
         else:
             specialization = 0
@@ -82,7 +82,7 @@ def predict():
         
         if output == 1:
             return render_template('index.html', prediction_text='You can be recruited!')
-        elif output == 0:
+        else:
             return render_template('index.html', prediction_text='You cannot be recruited. Try again next time!')
         
 if __name__ == '__main__':

@@ -15,8 +15,8 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{  url_for('static',filename='../Campus-Recruitment/Deployment/static/css/styles.css')  }}" >
-    <!-- <link rel="stylesheet" href="/Campus-Recruitment/Deployment/static/css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="{{  url_for('static',filename='static/css/styles.css')  }}" > -->
+    <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body align="center">
     
@@ -76,8 +76,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Work Experience</h5>
                             <select name="work-ex" id="work-ex" required="required">
-                                <option value="1">Yes</option>
-                                <option value="0">No</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
                             </select>
                         </div>
                     </div>
@@ -110,8 +110,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Gender</h5>
                             <select name="gender" id="gender" required="required">
-                                <option value="1">Male</option>
-                                <option value="0">Female</option>
+                                <option value="male">Male</option>
+                                <option value="male">Female</option>
                             </select>
                         </div>
                     </div>
@@ -122,8 +122,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Degree Type</h5>
                             <select name="degree_type" id="degree-type" required="required">
-                                <option value="1">Commerce & Management</option>
-                                <option value="0">Science and Technology</option>
+                                <option value="cmm&mgmt">Commerce & Management</option>
+                                <option value="scitech">Science and Technology</option>
                             </select>
                         </div>
                     </div>
@@ -134,8 +134,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Specialization</h5>
                             <select name="specialization" id="specialization" required="required">
-                                <option value="1">Market&Finance</option>
-                                <option value="0">Market&HR</option>
+                                <option value="mkt&finc">Market&Finance</option>
+                                <option value="mkt&hr">Market&HR</option>
                             </select>
                         </div>
                     </div>
