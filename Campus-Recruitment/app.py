@@ -9,7 +9,7 @@ import sklearn
 # Path of our Logistic regression model:
 modelPath = '/Campus-Recruitment/Models/LRModel.pkl'
 # Initializing the Flask framework:
-app = Flask(__name__, template_folder='../Campus-Recruitment/Deployment/templates')
+app = Flask(__name__)
 # Loading our model for later use:
 model = pickle.load(open("../Campus-Recruitment/Models/LRModel.pkl", "rb"))
 
@@ -81,9 +81,9 @@ def predict():
         output = prediction[0]
         
         if output == 1:
-            return render_template('index.html', prediction_text='You can be recruited!')
+            return render_template("index.html", prediction_text='You can be recruited!')
         else:
-            return render_template('index.html', prediction_text='You cannot be recruited. Try again next time!')
+            return render_template("index.html", prediction_text='You cannot be recruited. Try again next time!')
         
 if __name__ == '__main__':
     app.run(debug=True)
