@@ -11,7 +11,7 @@ The notebook includes explanation for the codes so it's easy to follow :)
 
 ## dataset:
 FashionMNIST dataset
-The dataset already exists as a part of the keras.datasets library
+The dataset already exists as a part of the keras.datasets library and can be easily used.
 
 Do check it out.
 Cheers!
