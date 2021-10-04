@@ -4,7 +4,7 @@
 3. Commit your Changes (`git commit -m 'Project Name-guthub-username'`)
 4. Push to the Branch (`git push origin <branch-name>`)
 5. Open a Pull Request
-6. Star the Repo(Really helps with discoverability)
+6. ⭐️Star the Repo(Really helps with discoverability)
 
 ## How to contribute?💪
 1. Create an issue.
