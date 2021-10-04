@@ -2,10 +2,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-def get_title_from_index(index):
+def get_title(index):
 	return df[df.index == index]["title"].values[0]
 
-def get_index_from_title(title):
+def get_index(title):
 	return df[df.title == title]["index"].values[0]
 
 
@@ -34,7 +34,7 @@ cosine_sim = cosine_similarity(count_matrix)
 user_input = input("Please enter a movie name: ")
 
 
-movie_index = get_index_from_title(user_input)
+movie_index = get_index(user_input)
 
 similar_movies =  list(enumerate(cosine_sim[movie_index]))
 
@@ -43,7 +43,7 @@ sorted_similar_movies = sorted(similar_movies,key=lambda x:x[1],reverse=True)
 
 i=0
 for element in sorted_similar_movies:
-		print(get_title_from_index(element[0]))
+		print(get_title(element[0]))
 		i=i+1
 		if i>50:
 			break
