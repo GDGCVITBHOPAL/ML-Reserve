@@ -22,3 +22,6 @@ pip install matplotlib
 pip install keras
 ```
 
+## Dataset:
+### CIFAR10 
+#### (The dataset already exists in the keras.datasets library and can be easily used)
