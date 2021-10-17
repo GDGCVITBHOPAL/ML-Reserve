@@ -1,0 +1,1 @@
+In this project I have used OpenCV and face_recognition to compare two faces.
