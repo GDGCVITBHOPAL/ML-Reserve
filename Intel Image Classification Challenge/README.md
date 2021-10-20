@@ -1,4 +1,4 @@
-Intel Image Classification Challenge using Different Transfer Learning Models
+## Intel Image Classification Challenge using Different Transfer Learning Models
 
 The IPYNB file includes the code for the same and each cell processing has been explained as a comment before it to increase user understandability.
 
