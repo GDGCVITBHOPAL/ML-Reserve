@@ -20,3 +20,7 @@ pip install Pillow
 ```bash 
 pip install PyQRCode
 ```
+
+## Results
+<img src="img/output.png" width="500" height="500" >
+<img src="img/file_location.png" width="500" height="350" >
