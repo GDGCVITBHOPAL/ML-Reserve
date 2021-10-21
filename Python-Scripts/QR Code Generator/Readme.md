@@ -21,6 +21,13 @@ pip install Pillow
 pip install PyQRCode
 ```
 
-## Results
-<img src="img/output.png" width="500" height="500" >
-<img src="img/file_location.png" width="500" height="350" >
+## Results:
+### Generating QR Code
+<img src="img/output.png" width="500" height="500" >  
+
+### Location of png file that got saved
+<img src="img/file_location.png" width="500" height="350" > 
+
+### Scanning the obtained QR Code
+<img src="img/scan_result.png" width="300" height="500" >
+
