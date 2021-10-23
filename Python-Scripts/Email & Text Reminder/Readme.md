@@ -2,6 +2,16 @@
 ### Python script to send emails and text notifications reminders 
 #
 ## Pre-requisites:
+### Install some necessary libraries:
+```bash 
+pip install emails
+```
+
+```bash 
+pip install secure-smtplib
+```
+
+#
 ### You need to enable "2-Step Verification" & generate "App passwords" for the email you will be using to send emails or text messages.
 ### You can do this by simply going to https://myaccount.google.com/security
 <img src="img/verification.png" width="600" height="250" >  
