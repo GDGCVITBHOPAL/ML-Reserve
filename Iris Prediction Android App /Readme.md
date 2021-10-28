@@ -45,9 +45,9 @@ get created in the same directory where iris.data resides. ꢀ
 
 \8. Click on OK.ꢀ
 
-\9. Your model will look like this after clicking on the ﬁnish.ꢀ
+\9. Click on the ﬁnish.ꢀ
 
-\10. Copy the code and paste it in the click listener of a button in MainActivity.kt.ꢀ
+\10. Copy the generated sample code and paste it in the click listener of a button in MainActivity.kt.ꢀ
 
 Woohoo, App is ready! ꢀ
 
