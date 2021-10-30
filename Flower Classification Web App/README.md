@@ -12,7 +12,7 @@ Folder Structure:-
 
 
 
-<img src="Screenshots/img4.png" width="600" height="500">
+<img src="Screenshots/img4.png" width="300" height="400">
 
 
 
@@ -26,21 +26,21 @@ Screenshots of Web App:-
 
 
 
-<img src="Screenshots/img1.png" width="600" height="500">
+<img src="Screenshots/img1.png" width="400" height="300">
 
 
 
 
 
 
-<img src="Screenshots/img2.png" width="600" height="500">
+<img src="Screenshots/img2.png" width="400" height="300">
 
 
 
 
 
 
-<img src="Screenshots/img3.png" width="600" height="500">
+<img src="Screenshots/img3.png" width="400" height="300">
 
 
 
