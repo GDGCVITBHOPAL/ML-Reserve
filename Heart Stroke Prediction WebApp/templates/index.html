@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+
+      <div class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h2 class="fw-normal">Fill this form to predict stroke.</h2>
+            <p class=" text-muted"><b>A stroke occurs when the blood supply to part of your brain is interrupted or
+                reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes.</b>
+            </p>
+            <p class="text-danger"><b>{{prediction_text}}</b></p>
+        </div>
+        <div class="container">
+            <form action="/" method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1"  class="form-label">Gender</label>
+                    <select class="form-select" id="gender" name="gender" aria-label="Default select example">
+                        <option selected>-- select gender --</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter age</label>
+                    <input type="text" class="form-control" id="age" name="age" placeholder="Age">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1"  class="form-label">Hypertension</label>
+                    <select class="form-select" id="hypertension" name="hypertension" aria-label="Default select example">
+                        <option selected>-- select Hypertension --</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1"  class="form-label">Heart Disease</label>
+                    <select class="form-select" id="disease" name="disease" aria-label="Default select example">
+                        <option selected>-- select Heart Disease --</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                
+                
+               
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter average glucose level</label>
+                    <input type="text" class="form-control" id="glucose" name="glucose" placeholder="Average Glucose level">
+                </div>
+                           
+                <div class="mb-3">
+                    <label for="exampleInputPassword1"  class="form-label">Smoking status</label>
+                    <select class="form-select" id="smoking" name="smoking" aria-label="Default select example">
+                        <option selected value="Unknown">-- Select smoking status if unknown --</option>
+                        <option value="never smoked">never smoked</option>
+                        <option value="formerly smoked">formerly smoked</option>
+                        <option value="smokes">smokes</option>
+                    </select>
+                <div class="button_cont" align="center"><a class="button_css" href="https://github.com/prem-creator/heart-detector.git" target="_blank" rel="nofollow noopener">
+                        <button type="submit" class="btn btn-primary btn-block btn-large"><strong>Predict Heart disease</strong></button></a>
+                </div>
+                </div>
+                <!-- Show predicted output using ML model --> 
+                <div>
+                    <center>
+                    <h1>{{ prediction_text }}</h1>
+                    </center>
+                </div>
+                
+            </form>
+
+        </div><br><br>
+        <br> <br> <br> <br> </div>
+
+    
+</body>
+
+</html>
