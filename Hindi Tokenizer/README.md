@@ -1,12 +1,12 @@
 <h1 align="center"> Hindi Tokenizer </h1> <br>
 
 <p align="center">
-  <a href="https://github.com/Apoorva57/ML-Reserve/tree/Apoorva57/Hindi%20Tokenizer">
+  <a href="https://github.com/DSCVITBHOPAL/ML-Reserve/tree/main/Hindi%20Tokenizer">
     <img alt="Tokenizer" title="Tokenizer" src="https://user-images.githubusercontent.com/97695341/195518913-901dfc68-db1a-4faf-87e9-dc4e43fbda81.gif" width="450">
   </a>
 </p>
 
-<a href="https://drive.google.com/file/d/1KjsPPoEl-lHvEuN2WyoBWHTx6HgqP47Y/view?usp=sharing"><h3 align="center">Video of code run</h4></a>
+Video of code run: https://drive.google.com/file/d/1KjsPPoEl-lHvEuN2WyoBWHTx6HgqP47Y/view?usp=sharing
 
 ## About Tokenization
 Natural Language Processing (NLP) enables machine learning algorithms to organize and understand human language. NLP enables machines to not only gather text and speech but also identify the core meaning it should respond to. Tokenization is one of the many pieces of the puzzle in how NLP works. Tokenization is a simple process that takes raw data and converts it into a useful data string. While tokenization is well known for its use in cybersecurity and the creation of NFTs, tokenization is also an important part of the NLP process. Tokenization is used in natural language processing to split paragraphs and sentences into smaller units that can be more easily assigned meaning. The first step of the NLP process is gathering the data (a sentence) and breaking it into understandable parts (words). Here’s an example of a string of data:
