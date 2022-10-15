@@ -1,10 +1,19 @@
 ## Contributing Guidelines📕
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b <github-username>`)
-3. Commit your Changes (`git commit -m 'Project Name-guthub-username'`)
-4. Push to the Branch (`git push origin <branch-name>`)
-5. Open a Pull Request
-6. ⭐️Star the Repo(Really helps with discoverability)
+2. Create your Feature Branch
+```shell
+git checkout -b <github-username>
+```
+4. Commit your Changes
+```shell
+git commit -m 'Project Name-github-username'
+```
+6. Push to the Branch
+```shell
+git push origin <branch-name>
+```
+8. Open a Pull Request
+9. ⭐️Star the Repo(Really helps with discoverability)
 
 ## How to contribute?💪
 1. Create an issue.
