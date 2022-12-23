@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitin.me</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Attachments -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="{{  url_for('static',filename='static/css/styles.css')  }}" > -->
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body align="center">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light  static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h3>Recruit.me</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #fff;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #fff;">Contact Us</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation Bar -->
+
+    <!-- Start of Masthead -->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="fw-light">What is Recruit.me all about?</h1>
+                    <p class="lead">By using Recruit.me, you can find out if you could get recruited from your campus!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="text-center">
+        <a class="btn btn-outline-dark btn-lg" href="/Deployment/templates/index.html" role="button">Let's GO!</a>
+    </div> -->
+    <!-- End of Masthead -->
+
+
+    <!-- <button type="button" class="btn btn-outline-dark btn-lg" >Let's Go!</button> -->
+
+    <div class="container form-area">
+        <form action="\predict" method="post">
+            <!-- Heading -->
+            <h2 class="heading-text">Find out if you'll get placed or not!</h2>
+            <!-- End of Heading -->
+
+            <!-- Main Body -->
+
+            <!-- ----- 1st Row ----- -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SSC score</h5>
+                            <input id="first" name="ssc" type="number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">HSC score</h5>
+                            <input id="second" name="hsc" type="number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Degree %</h5>
+                            <input id="third" name="degree" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----- End of 1st Row ----- -->
+
+            <!-- ----- 2nd Row ----- -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Work Experience</h5>
+                            <select name="work-ex" id="work-ex" required="required">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MBA %</h5>
+                            <input id="fifth" name="mba-p" type="number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Test %</h5>
+                            <input id="sixth" name="e-test" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----- End of 2nd Row ----- -->
+
+            <!-- ----- 3rd Row ----- -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gender</h5>
+                            <select name="gender" id="gender" required="required">
+                                <option value="male">Male</option>
+                                <option value="male">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Degree Type</h5>
+                            <select name="degree_type" id="degree-type" required="required">
+                                <option value="cmm&mgmt">Commerce & Management</option>
+                                <option value="scitech">Science and Technology</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Specialization</h5>
+                            <select name="specialization" id="specialization" required="required">
+                                <option value="mkt&finc">Market&Finance</option>
+                                <option value="mkt&hr">Market&HR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----- End of 3rd Row ----- -->
+
+            <!-- Submit Button -->
+            <input type="submit" value="Will I get recruited?" class="btn btn-secondary submit-button">
+            <!-- End of Submit Button -->
+        </form>
+
+        <!-- Prediction text-area -->
+        <div class="prediction">
+            <h3>{{ prediction_text }}</h3>
+        </div>
+        <!--End of Prediction text-area -->
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

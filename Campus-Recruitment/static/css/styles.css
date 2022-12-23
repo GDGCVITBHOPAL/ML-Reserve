@@ -1,0 +1,51 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('/static/img/bG1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.masthead {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.btn {
+    position: absolute;
+    left: 38%;
+    bottom: -20%;
+}
+
+.navbar {
+    background-color: #000;
+}
+.navbar-brand h3 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.form-area {
+    position: relative;
+    margin-bottom: 800px;
+    left: 100px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.prediction {
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+}
