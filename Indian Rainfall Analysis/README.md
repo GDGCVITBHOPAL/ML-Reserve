@@ -1,6 +1,5 @@
 ![image](https://user-images.githubusercontent.com/90418655/209568809-53613ff4-db02-4903-bafa-eac3bb0f271f.png)
 ![image](https://user-images.githubusercontent.com/90418655/209568834-621b63c3-882e-4dc8-a0c7-c756c6d7e102.png)
-![image](https://user-images.githubusercontent.com/90418655/209570327-2c519dbd-3738-46eb-853b-5e4d4d02a92e.png)
 # Indian Rainfall Analysis and Prediction
 Indian Government has undertaken many research studies to analyze the impact of global warming and climate change on rainfall pattern in India. The analyses were made using observed rainfall data from more than 3000 rain-gauge stations spread over the country for 115 years (1901-2015). The major inferences from these studies based on the 115 years of rainfall data are as follows:
 
