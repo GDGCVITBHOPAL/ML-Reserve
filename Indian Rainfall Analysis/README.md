@@ -75,3 +75,5 @@ states_india.geojson - Geojson code for the Indian states.<br>
 ### Plotting the graph between the real values and the predicted values.<br>
 
 ### Saving the model.
+
+## Hope you liked the project and Thank You for your time. Cheers!!
