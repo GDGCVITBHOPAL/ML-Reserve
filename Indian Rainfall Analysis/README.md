@@ -20,7 +20,7 @@ The modules used in the project are as follow<br>
 6)sklearn<br>
 7)os<br>
 
-The modules can be installed using the following commands:
+The modules can be installed using the following commands:<br>
 Windows - python -m pip install somepackage<br>
 Mac os - sudo easy_install pip<br>
          pip install somepackage<br>
