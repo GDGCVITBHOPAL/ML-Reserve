@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/90418655/209568809-53613ff4-db02-4903-bafa-eac3bb0f271f.png)
+![image](https://user-images.githubusercontent.com/90418655/209568834-621b63c3-882e-4dc8-a0c7-c756c6d7e102.png)
+
 # Indian Rainfall Analysis and Prediction
 
 ## Folder Structure
@@ -16,3 +19,13 @@ The modules used in the project are as follow<br>
 5)time<br>
 6)sklearn<br>
 7)os<br>
+
+The modules can be installed using the following commands:
+Windows - python -m pip install somepackage<br>
+Mac os - sudo easy_install pip<br>
+         pip install somepackage<br>
+Linux - pip install somepackage<br>
+
+###Reading the dataset<br>
+
+### Plotting various graphs based on the dataset for EDA<br>
