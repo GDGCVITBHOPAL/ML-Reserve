@@ -33,5 +33,6 @@ def convert_voc_to_yolo():
 ---
 
 #### Output sample
+![1672019103234](https://user-images.githubusercontent.com/99477672/210487235-ff97861e-e826-41d5-a9fd-4ddcd3e217c7.png)
 
-![1672019103234](image/README/1672019103234.png)
+
