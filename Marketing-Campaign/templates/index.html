@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketing Campaign</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        .sales-input {
+            margin-top: 10px;
+            margin-left: 100px;
+            width: 80%;
+
+        }
+
+        .file-input {
+            margin: auto;
+            padding-left: 150px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+
+            font-size: 25px;
+            background-color: #f8f9fa;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #273582;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <div class="title">Customer Personality Project</div>
+
+    <div class="sales-input">
+        <!-- main row -->
+        <div class="row">
+            <!-- user input column -->
+            <div class="col">
+                <form action="/predict" method="POST">
+                    <!-- 1st row -->
+                    <div class="row">
+                        <div class="col">
+                            <label>Customer's yearly household income</label>
+                            <input class="form-control" type="text" name="Income" id="Income" placeholder="Income" required>
+                        </div>
+                        <div class="col">
+                            <label>Number of days since customer's last purchase</label>
+                            <input class="form-control" type="text" name="Recency" id="Recency" placeholder="Income" required>
+                        </div>
+                    </div>
+
+                    <!-- 2nd row -->
+                    <div class="row my-2">
+                        <div class="col">
+                            <label>Customer's Age</label>
+                            <input class="form-control" type="text" name="Age" id="Age" placeholder="Age" required>
+                        </div>
+                        <div class="col">
+                            <label>Total spend by customer</label>
+                            <input class="form-control" type="text" name="TotalSpendings" id="TotalSpendings" placeholder="Spendings" required>
+                        </div>
+                    </div>
+
+                    <!-- 3rd row -->
+                    <div class="row my-2">
+                        <div class="col">
+                            <label>Customer's number of Children</label>
+                            <input class="form-control" type="text" name="Children" id="Children" placeholder="Children" required>
+                        </div>
+                        <div class="col">
+                            <label>Number of month enrolled by customer</label>
+                            <input class="form-control" type="text" name="MonthEnrollement" id="MonthEnrollement" placeholder="Enrollement" required>
+                        </div>
+                    </div>
+
+
+                    <center>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary my-2" type="submit">Predict</button>
+                        </div>
+                    </center>
+
+                </form>
+                <!-- Alert Message -->
+                {% with message = get_flashed_messages(with_categories=true) %}
+                {% if message %}
+                {% for category, msg in message %}
+                <div class="message">
+                    <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+                        {{msg}}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
+            </div>
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
